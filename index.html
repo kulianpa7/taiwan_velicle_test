@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>台灣考汽車駕照題庫</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+        }
+        #question-header{
+            width: 30%;
+        }
+        #image-header{
+            width: 10%;
+        }
+        #sidebar {
+            position: fixed; /* 固定側邊欄 */
+            width: 200px;
+            height: 100vh; /* 設定側邊欄高度為視口高度 */
+            background-color: #99b199;
+            padding: 20px;
+            color: white;
+            transition: transform 0.3s ease; /* 添加過渡效果 */
+            transform: translateX(0); /* 初始狀態顯示 */
+        }
+        #sidebar.hidden {
+            transform: translateX(-100%); /* 收合狀態 */
+        }
+        #toggle-sidebar {
+            position: fixed; /* 按鈕位置 */
+            left: 10px; /* 距離左邊距 */
+            top: 10px; /* 距離上邊距 */
+            background-color: #5cb85c;
+            border: none;
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+            z-index: 1000; /* 確保按鈕在最上層 */
+        }
+        #sidebar button, #sidebar select, #sidebar input {
+            background-color: #5cb85c;
+            border: none;
+            color: white;
+            padding: 10px;
+            margin: 5px 0;
+            cursor: pointer;
+            width: calc(100% - 12px); /* 確保所有元素寬度一致並考慮邊距 */
+            font-size: 1em;
+            box-sizing: border-box; /* 確保寬度計算包括內邊距 */
+        }
+        #sidebar button:hover, #sidebar select:hover, #sidebar input:hover {
+            background-color: #45a049;
+        }
+        #content {
+            flex-grow: 1;
+            margin-left: 220px; /* 留出側邊欄的空間 */
+            padding: 20px;
+            transition: margin-left 0.3s ease; /* 添加過渡效果 */
+        }
+        #content.shifted {
+            margin-left: 20px; /* 收合側邊欄後的內容移動 */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ccc;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        img {
+            max-width: 100px; /* 控制圖片寬度 */
+        }
+        .result {
+            font-weight: bold; /* 結果字體加粗 */
+        }
+        .answer-label {
+            font-size: 1.2em; /* 調整字體大小 */
+        }
+        #ids{
+            width: 40px;
+        }
+    </style>
+</head>
+<body>
+    <button id="toggle-sidebar" style="margin-left: 230px;"> X </button>
+    <div id="sidebar">
+        
+        <h3>操作選項</h3>
+        <select id="question-set">
+            <option value="汽車標誌是非題-中文+1130927.json">汽車標誌是非題</option>
+            <option value="汽車標誌選擇題-中文+1130927.json">汽車標誌選擇題</option>
+            <option value="汽車法規是非題-中文1130927.json">汽車法規是非題</option>
+            <option value="汽車法規選擇題-中文1130927.json">汽車法規選擇題</option>
+        </select>
+        <input type="number" id="question-quantity" min="1" placeholder="輸入題目數量" />
+        <button id="load-questions">載入題庫</button>
+        <button id="toggle-answers">顯示答案</button>
+        <button id="check-answers">檢查答案</button>
+        <button id="shuffle-data">打亂資料</button>
+    </div>
+    <div id="content">
+        <center><h1>台灣考汽車駕照題庫</h1></center>
+        <table id="data-table">
+            <thead>
+                <tr>
+                    <th id="ids">編號</th>
+                    <th id="question-header">題目</th> <!-- 預設顯示題目 -->
+                    <th id="image-header">圖片</th> <!-- 初始為顯示 -->
+                    <th>你的答案</th>
+                    <th>結果</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- 資料將動態插入這裡 -->
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        let showAnswers = false; // 控制答案顯示狀態
+        let jsonData = []; // 用於存儲 JSON 資料
+
+        // 載入選擇的題庫
+        function loadQuestions(file) {
+            fetch(file)  // 指定 JSON 檔案路徑
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('網路錯誤');
+                    }
+                    return response.json();  // 解析 JSON
+                })
+                .then(data => {
+                    jsonData = data; // 保存原始資料
+                    renderTable(jsonData, file); // 渲染表格，並傳入文件名以決定是否顯示圖片
+                })
+                .catch(error => {
+                    console.error('獲取 JSON 資料失敗:', error);
+                });
+        }
+
+        // 渲染表格的函數
+        function renderTable(data, file) {
+            const tableBody = document.getElementById('data-table').getElementsByTagName('tbody')[0];
+            const questionHeader = document.getElementById('question-header'); // 題目標題
+            tableBody.innerHTML = ''; // 清空表格內容
+
+            const showImageColumn = file.includes("汽車標誌"); // 判斷是否顯示圖片欄位
+            document.getElementById('image-header').style.display = showImageColumn ? 'table-cell' : 'none'; // 隱藏或顯示圖片欄位
+
+            // 檢查第一個項目是否有題目欄位
+            const hasQuestionField = data.some(item => item.question || item.description);
+
+            // 根據是否有題目欄位顯示或隱藏題目標題
+            questionHeader.style.display = hasQuestionField ? 'table-cell' : 'none'; // 隱藏或顯示題目標題
+
+            // 獲取使用者輸入的題目數量
+            const quantitySelected = parseInt(document.getElementById('question-quantity').value) || data.length;
+
+            // 根據選擇的題目量過濾題目
+            const filteredData = data.slice(0, quantitySelected);
+
+            filteredData.forEach(item => {
+                const row = document.createElement('tr');
+
+                // 根據格式渲染選擇題或是是非題
+                if (item.choose1 && item.choose2 && item.choose3) {
+                    // 如果是選擇題格式
+                    const choices = `
+                        <label class="answer-label"><input type="radio" name="answer-${item.id}" class="user-answer" value="1" data-answer="${item.status}"> ${item.choose1}</label><br>
+                        <label class="answer-label"><input type="radio" name="answer-${item.id}" class="user-answer" value="2" data-answer="${item.status}"> ${item.choose2}</label><br>
+                        <label class="answer-label"><input type="radio" name="answer-${item.id}" class="user-answer" value="3" data-answer="${item.status}"> ${item.choose3}</label>
+                    `;
+
+                    row.innerHTML = `
+                        <td>${item.id}</td>
+                        <td style="display: ${hasQuestionField ? 'table-cell' : 'none'};">${item.question || item.description}</td> <!-- 根據有無題目欄位顯示 -->
+                        <td style="display: ${showImageColumn ? 'table-cell' : 'none'};"><img src="${item.locate}" alt="${item.question}"></td> <!-- 根據條件顯示或隱藏圖片 -->
+                        <td>${choices}</td>
+                        <td class="result answer-label"></td>
+                    `;
+                } else {
+                    // 其他格式（如是非題）
+                    const radioButtons = `
+                        <label class="answer-label"><input type="radio" name="answer-${item.id}" class="user-answer" value="○" data-answer="${item.status}"> ○</label>
+                        <br>
+                        <label class="answer-label"><input type="radio" name="answer-${item.id}" class="user-answer" value="X" data-answer="${item.status}"> X</label>
+                    `;
+
+                    row.innerHTML = `
+                        <td>${item.id}</td>
+                        <td style="display: ${hasQuestionField ? 'table-cell' : 'none'};">${item.description || item.question}</td> <!-- 根據有無題目欄位顯示 -->
+                        <td style="display: ${showImageColumn ? 'table-cell' : 'none'};"><img src="${item.locate}" alt="${item.description}"></td> <!-- 根據條件顯示或隱藏圖片 -->
+                        <td>${radioButtons}</td>
+                        <td class="result answer-label"></td>
+                    `;
+                }
+
+                tableBody.appendChild(row);
+            });
+        }
+        let K = ["230px","0px"]
+        let index = 1;
+        // 切換側邊欄顯示
+        document.getElementById('toggle-sidebar').addEventListener('click', () => {
+
+            const sidebar = document.getElementById('sidebar');
+            const content = document.getElementById('content');
+            sidebar.classList.toggle('hidden'); // 切換收合狀態
+            content.classList.toggle('shifted'); // 調整內容位置
+
+            // 更新按鈕文字
+            document.getElementById('toggle-sidebar').textContent = sidebar.classList.contains('hidden') ? '三' : ' X ';
+            document.getElementById('toggle-sidebar').style.marginLeft = K[index];
+            if(index)
+                index= 0;
+            else
+                index = 1;
+        });
+
+        // 切換答案顯示
+        document.getElementById('toggle-answers').addEventListener('click', () => {
+            showAnswers = !showAnswers;
+            const answers = document.querySelectorAll('.user-answer');
+            answers.forEach(answer => {
+                const resultCell = answer.closest('tr').querySelector('.result');
+                if (showAnswers) {
+                    resultCell.style.display = 'table-cell';
+                    resultCell.textContent = answer.getAttribute('data-answer');
+                } else {
+                    resultCell.style.display = 'none';
+                }
+            });
+            document.getElementById('toggle-answers').textContent = showAnswers ? '隱藏答案' : '顯示答案';
+        });
+
+        // 檢查答案功能
+        document.getElementById('check-answers').addEventListener('click', () => {
+            const rows = document.querySelectorAll('#data-table tbody tr');
+            rows.forEach(row => {
+                const correctAnswer = row.querySelector('.user-answer[data-answer]').getAttribute('data-answer');
+                const selectedAnswer = row.querySelector('input[name^="answer-"]:checked');
+                const resultCell = row.querySelector('.result');
+
+                // 重置結果
+                resultCell.style.display = 'table-cell'; // 確保結果顯示
+                resultCell.textContent = ''; // 清空結果
+
+                if (selectedAnswer) {
+                    resultCell.textContent = selectedAnswer.value === correctAnswer ? "你選對了" : "你選錯了";
+                } else {
+                    resultCell.textContent = "未選擇答案"; // 提示用戶未選擇答案
+                }
+            });
+        });
+
+        // 隨機打亂資料
+        document.getElementById('shuffle-data').addEventListener('click', () => {
+            jsonData = jsonData.sort(() => Math.random() - 0.5); // 打亂資料
+            renderTable(jsonData, document.getElementById('question-set').value); // 重新渲染表格
+        });
+
+        // 載入初始題庫
+        document.getElementById('load-questions').addEventListener('click', () => {
+            const selectedFile = document.getElementById('question-set').value; // 獲取選擇的文件
+            loadQuestions(selectedFile); // 載入問題
+        });
+
+    </script>
+</body>
+</html>

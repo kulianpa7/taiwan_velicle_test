@@ -1,0 +1,1098 @@
+[
+    {
+        "id": "001",
+        "status": "1",
+        "locate": "image2/1_image2_1_汽車標誌選擇題.png",
+        "choose1": "右彎",
+        "choose2": "左彎",
+        "choose3": "連續彎路先向右"
+    },
+    {
+        "id": "002",
+        "status": "1",
+        "locate": "image2/1_image2_2_汽車標誌選擇題.png",
+        "choose1": "左彎",
+        "choose2": "右彎",
+        "choose3": "連續彎路先向左"
+    },
+    {
+        "id": "003",
+        "status": "1",
+        "locate": "image2/1_image2_3_汽車標誌選擇題.png",
+        "choose1": "連續彎路先向右",
+        "choose2": "左彎",
+        "choose3": "連續彎路先向左"
+    },
+    {
+        "id": "004",
+        "status": "1",
+        "locate": "image2/1_image2_4_汽車標誌選擇題.png",
+        "choose1": "連續彎路先向左",
+        "choose2": "右彎",
+        "choose3": "連續彎路先向右"
+    },
+    {
+        "id": "005",
+        "status": "3",
+        "locate": "image2/1_image2_5_汽車標誌選擇題.png",
+        "choose1": "雙向道",
+        "choose2": "狹路",
+        "choose3": "岔路"
+    },
+    {
+        "id": "006",
+        "status": "1",
+        "locate": "image2/1_image2_6_汽車標誌選擇題.png",
+        "choose1": "岔路",
+        "choose2": "雙向道",
+        "choose3": "此路不通"
+    },
+    {
+        "id": "007",
+        "status": "1",
+        "locate": "image2/1_image2_7_汽車標誌選擇題.png",
+        "choose1": "右側車道縮減",
+        "choose2": "狹路",
+        "choose3": "匝道會車"
+    },
+    {
+        "id": "008",
+        "status": "1",
+        "locate": "image2/1_image2_8_汽車標誌選擇題.png",
+        "choose1": "狹路",
+        "choose2": "狹橋",
+        "choose3": "岔路"
+    },
+    {
+        "id": "009",
+        "status": "3",
+        "locate": "image2/1_image2_9_汽車標誌選擇題.png",
+        "choose1": "岔路",
+        "choose2": "狹橋",
+        "choose3": "匝道會車"
+    },
+    {
+        "id": "010",
+        "status": "2",
+        "locate": "image2/2_image2_1_汽車標誌選擇題.png",
+        "choose1": "單行道",
+        "choose2": "雙向道",
+        "choose3": "狹路"
+    },
+    {
+        "id": "011",
+        "status": "2",
+        "locate": "image2/2_image2_2_汽車標誌選擇題.png",
+        "choose1": "左彎",
+        "choose2": "圓環",
+        "choose3": "岔路"
+    },
+    {
+        "id": "012",
+        "status": "1",
+        "locate": "image2/2_image2_3_汽車標誌選擇題.png",
+        "choose1": "路面顛簸",
+        "choose2": "路面高突",
+        "choose3": "路面低窪"
+    },
+    {
+        "id": "013",
+        "status": "2",
+        "locate": "image2/2_image2_4_汽車標誌選擇題.png",
+        "choose1": "岔路",
+        "choose2": "狹橋",
+        "choose3": "狹路"
+    },
+    {
+        "id": "014",
+        "status": "3",
+        "locate": "image2/2_image2_5_汽車標誌選擇題.png",
+        "choose1": "路面顛簸",
+        "choose2": "險升坡",
+        "choose3": "路面高突"
+    },
+    {
+        "id": "015",
+        "status": "1",
+        "locate": "image2/2_image2_6_汽車標誌選擇題.png",
+        "choose1": "險降坡",
+        "choose2": "險升坡",
+        "choose3": "碼頭"
+    },
+    {
+        "id": "016",
+        "status": "3",
+        "locate": "image2/2_image2_7_汽車標誌選擇題.png",
+        "choose1": "右側斷崖",
+        "choose2": "注意落石",
+        "choose3": "左側斷崖"
+    },
+    {
+        "id": "017",
+        "status": "1",
+        "locate": "image2/2_image2_8_汽車標誌選擇題.png",
+        "choose1": "無柵門 鐵路平交道",
+        "choose2": "有柵門鐵路平交道",
+        "choose3": "禁止汽車進入"
+    },
+    {
+        "id": "018",
+        "status": "1",
+        "locate": "image2/2_image2_9_汽車標誌選擇題.png",
+        "choose1": "注意號誌",
+        "choose2": "危險",
+        "choose3": "慢行"
+    },
+    {
+        "id": "019",
+        "status": "3",
+        "locate": "image2/2_image2_10_汽車標誌選擇題.png",
+        "choose1": "禁止汽車進入",
+        "choose2": "無柵門鐵路平交道",
+        "choose3": "有柵門鐵路平交道"
+    },
+    {
+        "id": "020",
+        "status": "2",
+        "locate": "image2/3_image2_1_汽車標誌選擇題.png",
+        "choose1": "路面高突",
+        "choose2": "路滑",
+        "choose3": "禁止超車"
+    },
+    {
+        "id": "021",
+        "status": "2",
+        "locate": "image2/3_image2_2_汽車標誌選擇題.png",
+        "choose1": "狹路",
+        "choose2": "隧道",
+        "choose3": "狹橋"
+    },
+    {
+        "id": "022",
+        "status": "2",
+        "locate": "image2/3_image2_3_汽車標誌選擇題.png",
+        "choose1": "禁止汽車進入",
+        "choose2": "當心台車",
+        "choose3": "當心行人"
+    },
+    {
+        "id": "023",
+        "status": "2",
+        "locate": "image2/3_image2_4_汽車標誌選擇題.png",
+        "choose1": "當心行人",
+        "choose2": "當心兒童",
+        "choose3": "禁止行人通行"
+    },
+    {
+        "id": "024",
+        "status": "2",
+        "locate": "image2/3_image2_5_汽車標誌選擇題.png",
+        "choose1": "當心兒童",
+        "choose2": "當心行人",
+        "choose3": "禁止行人通行"
+    },
+    {
+        "id": "025",
+        "status": "3",
+        "locate": "image2/3_image2_6_汽車標誌選擇題.png",
+        "choose1": "停車再開",
+        "choose2": "讓路",
+        "choose3": "慢行"
+    },
+    {
+        "id": "026",
+        "status": "2",
+        "locate": "image2/3_image2_7_汽車標誌選擇題.png",
+        "choose1": "險降坡",
+        "choose2": "碼頭、堤岸",
+        "choose3": "路滑"
+    },
+    {
+        "id": "027",
+        "status": "3",
+        "locate": "image2/3_image2_8_汽車標誌選擇題.png",
+        "choose1": "危險路面",
+        "choose2": "注意左側落石",
+        "choose3": "注意右側落石"
+    },
+    {
+        "id": "028",
+        "status": "2",
+        "locate": "image2/3_image2_9_汽車標誌選擇題.png",
+        "choose1": "狹橋",
+        "choose2": "危險",
+        "choose3": "慢行"
+    },
+    {
+        "id": "029",
+        "status": "1",
+        "locate": "image2/3_image2_10_汽車標誌選擇題.png",
+        "choose1": "靠右行駛",
+        "choose2": "單行道",
+        "choose3": "可以右轉"
+    },
+    {
+        "id": "030",
+        "status": "2",
+        "locate": "image2/4_image2_1_汽車標誌選擇題.png",
+        "choose1": "禁止停車",
+        "choose2": "停車檢查",
+        "choose3": "禁止汽車進入"
+    },
+    {
+        "id": "031",
+        "status": "3",
+        "locate": "image2/4_image2_2_汽車標誌選擇題.png",
+        "choose1": "禁止行人通行",
+        "choose2": "停車再開",
+        "choose3": "禁止任何車輛進入"
+    },
+    {
+        "id": "032",
+        "status": "3",
+        "locate": "image2/4_image2_3_汽車標誌選擇題.png",
+        "choose1": "禁止行人通行",
+        "choose2": "禁止任何車輛進入",
+        "choose3": "禁止四輪以上汽車進入"
+    },
+    {
+        "id": "033",
+        "status": "2",
+        "locate": "image2/4_image2_4_汽車標誌選擇題.png",
+        "choose1": "禁止任何車輛進入",
+        "choose2": "禁止聯結車進入",
+        "choose3": "禁止大貨車及聯結車進入"
+    },
+    {
+        "id": "034",
+        "status": "1",
+        "locate": "image2/4_image2_5_汽車標誌選擇題.png",
+        "choose1": "禁止大型重型機車以外之  機車進入",
+        "choose2": "禁止四輪以上汽車進入",
+        "choose3": "禁止任何機車進入"
+    },
+    {
+        "id": "035",
+        "status": "2",
+        "locate": "image2/4_image2_6_汽車標誌選擇題.png",
+        "choose1": "禁止任何車輛進入",
+        "choose2": "禁止四輪以上汽車及機車進入",
+        "choose3": "禁止行人通行"
+    },
+    {
+        "id": "036",
+        "status": "2",
+        "locate": "image2/4_image2_7_汽車標誌選擇題.png",
+        "choose1": "禁止迴車",
+        "choose2": "禁止左轉",
+        "choose3": "禁止超車"
+    },
+    {
+        "id": "037",
+        "status": "1",
+        "locate": "image2/4_image2_8_汽車標誌選擇題.png",
+        "choose1": "禁止超車",
+        "choose2": "禁止會車",
+        "choose3": "禁止汽車進入"
+    },
+    {
+        "id": "038",
+        "status": "2",
+        "locate": "image2/4_image2_9_汽車標誌選擇題.png",
+        "choose1": "禁止左轉",
+        "choose2": "禁止迴車",
+        "choose3": "禁止會車"
+    },
+    {
+        "id": "039",
+        "status": "2",
+        "locate": "image2/5_image2_1_汽車標誌選擇題.png",
+        "choose1": "雙向道",
+        "choose2": "禁止會車",
+        "choose3": "分道"
+    },
+    {
+        "id": "040",
+        "status": "1",
+        "locate": "image2/5_image2_2_汽車標誌選擇題.png",
+        "choose1": "車輛寬度限制",
+        "choose2": "單行道",
+        "choose3": "車輛高度限制"
+    },
+    {
+        "id": "041",
+        "status": "1",
+        "locate": "image2/5_image2_3_汽車標誌選擇題.png",
+        "choose1": "車輛總重限制",
+        "choose2": "車輛載重限制",
+        "choose3": "車輛空重"
+    },
+    {
+        "id": "042",
+        "status": "1",
+        "locate": "image2/5_image2_4_汽車標誌選擇題.png",
+        "choose1": "禁止行人通行",
+        "choose2": "當心行人",
+        "choose3": "當心兒童"
+    },
+    {
+        "id": "043",
+        "status": "2",
+        "locate": "image2/5_image2_5_汽車標誌選擇題.png",
+        "choose1": "最低速限",
+        "choose2": "最高速限",
+        "choose3": "車輛總重限制"
+    },
+    {
+        "id": "044",
+        "status": "1",
+        "locate": "image2/5_image2_6_汽車標誌選擇題.png",
+        "choose1": "禁止大貨車及聯結車進入",
+        "choose2": "禁止大貨車進入",
+        "choose3": "禁止汽車進入"
+    },
+    {
+        "id": "045",
+        "status": "3",
+        "locate": "image2/5_image2_7_汽車標誌選擇題.png",
+        "choose1": "左彎",
+        "choose2": "左轉方向",
+        "choose3": "直行後左轉"
+    },
+    {
+        "id": "046",
+        "status": "2",
+        "locate": "image2/5_image2_8_汽車標誌選擇題.png",
+        "choose1": "單線電化鐵路平交道",
+        "choose2": "雙線以上電化鐵路平交道",
+        "choose3": "單線鐵路平交道"
+    },
+    {
+        "id": "047",
+        "status": "1",
+        "locate": "image2/5_image2_9_汽車標誌選擇題.png",
+        "choose1": "車輛長度限制",
+        "choose2": "車輛寬度限制",
+        "choose3": "禁止大貨車進入"
+    },
+    {
+        "id": "048",
+        "status": "1",
+        "locate": "image2/5_image2_10_汽車標誌選擇題.png",
+        "choose1": "道路專行車輛",
+        "choose2": "禁行汽車",
+        "choose3": "禁止任何車輛進入"
+    },
+    {
+        "id": "049",
+        "status": "1",
+        "locate": "image2/6_image2_1_汽車標誌選擇題.png",
+        "choose1": "圓環遵行方向",
+        "choose2": "分道",
+        "choose3": "單行道"
+    },
+    {
+        "id": "050",
+        "status": "1",
+        "locate": "image2/6_image2_2_汽車標誌選擇題.png",
+        "choose1": "行人專用",
+        "choose2": "當心行人",
+        "choose3": "當心兒童"
+    },
+    {
+        "id": "051",
+        "status": "2",
+        "locate": "image2/6_image2_3_汽車標誌選擇題.png",
+        "choose1": "省道路線編號",
+        "choose2": "縣道路線編號",
+        "choose3": "國道路線編號"
+    },
+    {
+        "id": "052",
+        "status": "2",
+        "locate": "image2/6_image2_4_汽車標誌選擇題.png",
+        "choose1": "遵行方向",
+        "choose2": "救護站岔路",
+        "choose3": ""
+    },
+    {
+        "id": "053",
+        "status": "2",
+        "locate": "image2/6_image2_5_汽車標誌選擇題.png",
+        "choose1": "岔路",
+        "choose2": "此路不通",
+        "choose3": "狹路"
+    },
+    {
+        "id": "054",
+        "status": "1",
+        "locate": "image2/6_image2_6_汽車標誌選擇題.png",
+        "choose1": "省道路線編號",
+        "choose2": "縣道路線編號",
+        "choose3": "國道路線編號"
+    },
+    {
+        "id": "055",
+        "status": "2",
+        "locate": "image2/6_image2_7_汽車標誌選擇題.png",
+        "choose1": "閃光黃燈",
+        "choose2": "行車管制號誌",
+        "choose3": "斑馬線閃光號誌"
+    },
+    {
+        "id": "056",
+        "status": "2",
+        "locate": "image2/6_image2_8_汽車標誌選擇題.png",
+        "choose1": "斑馬線閃光號誌",
+        "choose2": "特種閃光「黃燈」號誌",
+        "choose3": "閃光紅燈號誌"
+    },
+    {
+        "id": "057",
+        "status": "1",
+        "locate": "image2/6_image2_9_汽車標誌選擇題.png",
+        "choose1": "行人專用號誌",
+        "choose2": "閃光黃燈",
+        "choose3": "行人穿越道號誌"
+    },
+    {
+        "id": "058",
+        "status": "3",
+        "locate": "image2/6_image2_10_汽車標誌選擇題.png",
+        "choose1": "閃光黃燈",
+        "choose2": "閃光紅燈號誌",
+        "choose3": "行人穿越道號誌"
+    },
+    {
+        "id": "059",
+        "status": "2",
+        "locate": "image2/7_image2_1_汽車標誌選擇題.png",
+        "choose1": "右道封閉",
+        "choose2": "左道封閉",
+        "choose3": "車輛改道"
+    },
+    {
+        "id": "060",
+        "status": "1",
+        "locate": "image2/7_image2_2_汽車標誌選擇題.png",
+        "choose1": "右道封閉",
+        "choose2": "左道封閉",
+        "choose3": "車輛改道"
+    },
+    {
+        "id": "061",
+        "status": "3",
+        "locate": "image2/7_image2_3_汽車標誌選擇題.png",
+        "choose1": "道路封閉",
+        "choose2": "車輛改道",
+        "choose3": "道路施工"
+    },
+    {
+        "id": "062",
+        "status": "3",
+        "locate": "image2/7_image2_4_汽車標誌選擇題.png",
+        "choose1": "左道封閉",
+        "choose2": "右道封閉",
+        "choose3": "車輛改道"
+    },
+    {
+        "id": "063",
+        "status": "1",
+        "locate": "image2/7_image2_5_汽車標誌選擇題.png",
+        "choose1": "指示改道方向",
+        "choose2": "單行道",
+        "choose3": "右轉方向指示"
+    },
+    {
+        "id": "064",
+        "status": "2",
+        "locate": "image2/7_image2_6_汽車標誌選擇題.png",
+        "choose1": "道路施工",
+        "choose2": "道路封閉",
+        "choose3": "車輛改道"
+    },
+    {
+        "id": "065",
+        "status": "3",
+        "locate": "image2/7_image2_7_汽車標誌選擇題.png",
+        "choose1": "救護站",
+        "choose2": "加油站",
+        "choose3": "修理站"
+    },
+    {
+        "id": "066",
+        "status": "1",
+        "locate": "image2/7_image2_8_汽車標誌選擇題.png",
+        "choose1": "直行後右轉",
+        "choose2": "直行後左轉",
+        "choose3": "左轉遵行方向"
+    },
+    {
+        "id": "067",
+        "status": "2",
+        "locate": "image2/7_image2_9_汽車標誌選擇題.png",
+        "choose1": "人行天橋",
+        "choose2": "人行地下道",
+        "choose3": "停車處"
+    },
+    {
+        "id": "068",
+        "status": "3",
+        "locate": "image2/7_image2_10_汽車標誌選擇題.png",
+        "choose1": "道路指定汽車專行",
+        "choose2": "大客車專行",
+        "choose3": "自行車及 大型重型機車以外 之機車專行"
+    },
+    {
+        "id": "069",
+        "status": "3",
+        "locate": "image2/8_image2_1_汽車標誌選擇題.png",
+        "choose1": "救護站",
+        "choose2": "修理站",
+        "choose3": "加油站"
+    },
+    {
+        "id": "070",
+        "status": "1",
+        "locate": "image2/8_image2_2_汽車標誌選擇題.png",
+        "choose1": "餐旅服務",
+        "choose2": "加油站",
+        "choose3": "修理站"
+    },
+    {
+        "id": "071",
+        "status": "2",
+        "locate": "image2/8_image2_3_汽車標誌選擇題.png",
+        "choose1": "左轉方向",
+        "choose2": "右轉方向",
+        "choose3": "左右轉方向"
+    },
+    {
+        "id": "072",
+        "status": "2",
+        "locate": "image2/8_image2_4_汽車標誌選擇題.png",
+        "choose1": "禁制標誌",
+        "choose2": "車輛故障標誌",
+        "choose3": "危險標誌"
+    },
+    {
+        "id": "073",
+        "status": "1",
+        "locate": "image2/8_image2_5_汽車標誌選擇題.png",
+        "choose1": "圖中白色倒三角型標線是： 讓路線",
+        "choose2": "停止線",
+        "choose3": "路中障礙物體線"
+    },
+    {
+        "id": "074",
+        "status": "3",
+        "locate": "image2/8_image2_6_汽車標誌選擇題.png",
+        "choose1": "停車線",
+        "choose2": "近障礙物線",
+        "choose3": "車輛停放線"
+    },
+    {
+        "id": "075",
+        "status": "1",
+        "locate": "image2/8_image2_7_汽車標誌選擇題.png",
+        "choose1": "圖中箭頭所指白色實線為： 路面邊線",
+        "choose2": "車道線",
+        "choose3": "雙方禁止超車線"
+    },
+    {
+        "id": "076",
+        "status": "3",
+        "locate": "image2/8_image2_8_汽車標誌選擇題.png",
+        "choose1": "近障礙物線",
+        "choose2": "近鐵路平交道線",
+        "choose3": "路寬變更線"
+    },
+    {
+        "id": "077",
+        "status": "2",
+        "locate": "image2/8_image2_9_汽車標誌選擇題.png",
+        "choose1": "圖中白色虛線為： 斑馬紋行人穿越道線",
+        "choose2": "車道線",
+        "choose3": "路面邊線"
+    },
+    {
+        "id": "078",
+        "status": "1",
+        "locate": "image2/8_image2_10_汽車標誌選擇題.png",
+        "choose1": "近鐵路平交道線",
+        "choose2": "近障礙物線",
+        "choose3": "路寬變更線"
+    },
+    {
+        "id": "079",
+        "status": "3",
+        "locate": "image2/9_image2_1_汽車標誌選擇題.png",
+        "choose1": "禁止停車線",
+        "choose2": "行車分向線",
+        "choose3": "指向線"
+    },
+    {
+        "id": "080",
+        "status": "2",
+        "locate": "image2/9_image2_2_汽車標誌選擇題.png",
+        "choose1": "圖中黃色雙實線為： 單向禁止超車線",
+        "choose2": "雙向禁止超車線",
+        "choose3": "車道線"
+    },
+    {
+        "id": "081",
+        "status": "1",
+        "locate": "image2/9_image2_3_汽車標誌選擇題.png",
+        "choose1": "圖中黃色單實線與黃色虛線併列部分為： 單向禁止超車線",
+        "choose2": "雙向禁止超車線",
+        "choose3": "車道線"
+    },
+    {
+        "id": "082",
+        "status": "3",
+        "locate": "image2/9_image2_4_汽車標誌選擇題.png",
+        "choose1": "圖中白色雙實線為： 分向限制線",
+        "choose2": "雙向禁止超車線",
+        "choose3": "禁止變換車道線"
+    },
+    {
+        "id": "083",
+        "status": "1",
+        "locate": "image2/9_image2_5_汽車標誌選擇題.png",
+        "choose1": "圖中黃色實線為： 禁止停車線",
+        "choose2": "禁止臨時停車線",
+        "choose3": "車輛停放線"
+    },
+    {
+        "id": "084",
+        "status": "2",
+        "locate": "image2/9_image2_6_汽車標誌選擇題.png",
+        "choose1": "圖中紅色實線為： 禁止停車線",
+        "choose2": "禁止臨時停車線",
+        "choose3": "車輛停放線"
+    },
+    {
+        "id": "085",
+        "status": "3",
+        "locate": "image2/9_image2_7_汽車標誌選擇題.png",
+        "choose1": "圖中黃色虛線為： 車道線",
+        "choose2": "分向限制線",
+        "choose3": "行車分向線"
+    },
+    {
+        "id": "086",
+        "status": "1",
+        "locate": "image2/9_image2_8_汽車標誌選擇題.png",
+        "choose1": "圖中白色斜紋線為： 斑馬紋行人穿越道線",
+        "choose2": "枕木紋行人穿越道線",
+        "choose3": "停止線"
+    },
+    {
+        "id": "087",
+        "status": "3",
+        "locate": "image2/9_image2_9_汽車標誌選擇題.png",
+        "choose1": "圖中白色橫向實線為： 車輛停放線",
+        "choose2": "禁止超車線",
+        "choose3": "停止線"
+    },
+    {
+        "id": "088",
+        "status": "2",
+        "locate": "image2/9_image2_10_汽車標誌選擇題.png",
+        "choose1": "圖中白色紋線為： 斑馬紋行人穿越道線",
+        "choose2": "枕木紋行人穿越道線",
+        "choose3": "停止線"
+    },
+    {
+        "id": "089",
+        "status": "1",
+        "locate": "image2/10_image2_1_汽車標誌選擇題.png",
+        "choose1": "圖中黃色雙實線為： 分向限制線",
+        "choose2": "禁止變換車道線",
+        "choose3": "車道線"
+    },
+    {
+        "id": "090",
+        "status": "2",
+        "locate": "image2/10_image2_2_汽車標誌選擇題.png",
+        "choose1": "路中障礙物體線",
+        "choose2": "近障礙物線",
+        "choose3": "路寬變更線"
+    },
+    {
+        "id": "091",
+        "status": "2",
+        "locate": "image2/10_image2_3_汽車標誌選擇題.png",
+        "choose1": "圖中網狀線，用以告示車輛駕駛人在本標線範圍內： 可以臨時停車",
+        "choose2": "禁止臨時停車",
+        "choose3": "禁止停車"
+    },
+    {
+        "id": "092",
+        "status": "1",
+        "locate": "image2/10_image2_4_汽車標誌選擇題.png",
+        "choose1": "圖中白色虛線為： 轉彎線",
+        "choose2": "網狀線",
+        "choose3": "槽化線"
+    },
+    {
+        "id": "093",
+        "status": "1",
+        "locate": "image2/10_image2_5_汽車標誌選擇題.png",
+        "choose1": "身心障礙者專用停車位",
+        "choose2": "停止線",
+        "choose3": "禁止停車線"
+    },
+    {
+        "id": "094",
+        "status": "2",
+        "locate": "image2/10_image2_6_汽車標誌選擇題.png",
+        "choose1": "全部車輛停止",
+        "choose2": "前後來車停止，左右來車通行",
+        "choose3": "前方來車停止通行"
+    },
+    {
+        "id": "095",
+        "status": "1",
+        "locate": "image2/10_image2_7_汽車標誌選擇題.png",
+        "choose1": "右方來車左轉彎",
+        "choose2": "右方來車速行",
+        "choose3": "左方來車速行"
+    },
+    {
+        "id": "096",
+        "status": "1",
+        "locate": "image2/10_image2_8_汽車標誌選擇題.png",
+        "choose1": "右方來車停止",
+        "choose2": "右方來車左轉彎",
+        "choose3": "右方來車速行"
+    },
+    {
+        "id": "097",
+        "status": "3",
+        "locate": "image2/10_image2_9_汽車標誌選擇題.png",
+        "choose1": "右方來車停止",
+        "choose2": "左方來車通行",
+        "choose3": "右方來車速行"
+    },
+    {
+        "id": "098",
+        "status": "2",
+        "locate": "image2/10_image2_10_汽車標誌選擇題.png",
+        "choose1": "左方來車速行",
+        "choose2": "左方來車左轉彎",
+        "choose3": "右方來車停止"
+    },
+    {
+        "id": "099",
+        "status": "3",
+        "locate": "image2/11_image2_1_汽車標誌選擇題.png",
+        "choose1": "前方來車停止通行",
+        "choose2": "前後來車停止，左右來車通行",
+        "choose3": "全部車輛停止"
+    },
+    {
+        "id": "100",
+        "status": "1",
+        "locate": "image2/11_image2_2_汽車標誌選擇題.png",
+        "choose1": "前方來車停止",
+        "choose2": "前後停止左右通行",
+        "choose3": "全部車輛停止"
+    },
+    {
+        "id": "101",
+        "status": "1",
+        "locate": "image2/11_image2_3_汽車標誌選擇題.png",
+        "choose1": "左臂向上，手掌向右微曲 ，表示： 右轉彎",
+        "choose2": "左轉彎",
+        "choose3": "讓後車超車"
+    },
+    {
+        "id": "102",
+        "status": "2",
+        "locate": "image2/11_image2_4_汽車標誌選擇題.png",
+        "choose1": "左臂平伸，手掌向下，表示： 右轉彎",
+        "choose2": "左轉彎",
+        "choose3": "慢行"
+    },
+    {
+        "id": "103",
+        "status": "1",
+        "locate": "image2/11_image2_5_汽車標誌選擇題.png",
+        "choose1": "左臂向下垂伸，手掌向後，表示： 減速暫停",
+        "choose2": "讓後車超越",
+        "choose3": "倒車"
+    },
+    {
+        "id": "104",
+        "status": "3",
+        "locate": "image2/11_image2_6_汽車標誌選擇題.png",
+        "choose1": "左臂向下作４５度垂伸，手掌向前並前後擺動，表示： 倒車",
+        "choose2": "慢行",
+        "choose3": "讓後車超越"
+    },
+    {
+        "id": "105",
+        "status": "1",
+        "locate": "image2/11_image2_7_汽車標誌選擇題.png",
+        "choose1": "開亮頭燈",
+        "choose2": "注意號誌",
+        "choose3": "按鳴喇叭"
+    },
+    {
+        "id": "106",
+        "status": "1",
+        "locate": "image2/11_image2_8_汽車標誌選擇題.png",
+        "choose1": "道路指定四輪以上汽車與汽缸總排氣量550立方公分以上大型重型機車專行",
+        "choose2": "道路指定自行車與機車專行",
+        "choose3": "道路禁止四輪以上汽車與汽缸總排氣量 550立方公分以上大型重型機車進入"
+    },
+    {
+        "id": "107",
+        "status": "2",
+        "locate": "image2/12_image2_1_汽車標誌選擇題.png",
+        "choose1": "車道指定 四輪以上 汽車專行",
+        "choose2": "車道指定四輪以上汽車及汽缸總排氣量 550立方公分以上大型重型機車專行",
+        "choose3": "車道指定汽缸總排氣量 550立方公分以上大型重型機車專行"
+    },
+    {
+        "id": "108",
+        "status": "1",
+        "locate": "image2/12_image2_2_汽車標誌選擇題.png",
+        "choose1": "禁止汽缸總排氣量 550立方公分以上大型重型機車進入",
+        "choose2": "汽缸總排氣量 550立方公分以上大型重型機車專用車道",
+        "choose3": "禁止自行車進入"
+    },
+    {
+        "id": "109",
+        "status": "3",
+        "locate": "image2/12_image2_3_汽車標誌選擇題.png",
+        "choose1": "車輛長度限制",
+        "choose2": "最高速限",
+        "choose3": "行車安全距離限制"
+    },
+    {
+        "id": "110",
+        "status": "3",
+        "locate": "image2/12_image2_4_汽車標誌選擇題.png",
+        "choose1": "本標誌是縣道路線編號",
+        "choose2": "省道路線編號",
+        "choose3": "國道路線編號"
+    },
+    {
+        "id": "111",
+        "status": "1",
+        "locate": "image2/12_image2_5_汽車標誌選擇題.png",
+        "choose1": "警告駕駛人注意前方右側有車插會",
+        "choose2": "前方左側有車插會",
+        "choose3": "岔路"
+    },
+    {
+        "id": "112",
+        "status": "2",
+        "locate": "image2/12_image2_6_汽車標誌選擇題.png",
+        "choose1": "限制出口匝 道上最高行駛速度為每小時６０公里",
+        "choose2": "４０公里",
+        "choose3": "８０公里"
+    },
+    {
+        "id": "113",
+        "status": "2",
+        "locate": "image2/12_image2_7_汽車標誌選擇題.png",
+        "choose1": "本標誌為出口",
+        "choose2": "車道",
+        "choose3": "地名"
+    },
+    {
+        "id": "114",
+        "status": "3",
+        "locate": "image2/12_image2_8_汽車標誌選擇題.png",
+        "choose1": "本標誌是： 單行道",
+        "choose2": "遵行方向",
+        "choose3": "指示改道方向"
+    },
+    {
+        "id": "115",
+        "status": "2",
+        "locate": "image2/12_image2_9_汽車標誌選擇題.png",
+        "choose1": "本標誌為警告標誌",
+        "choose2": "車輛故障標誌",
+        "choose3": "施工標誌"
+    },
+    {
+        "id": "116",
+        "status": "3",
+        "locate": "image2/13_image2_1_汽車標誌選擇題.png",
+        "choose1": "本標誌為： 地名里程指示",
+        "choose2": "方向里程指示",
+        "choose3": "地名方向指示"
+    },
+    {
+        "id": "117",
+        "status": "3",
+        "locate": "image2/13_image2_2_汽車標誌選擇題.png",
+        "choose1": "指示高速公路出口",
+        "choose2": "高速公路服務區",
+        "choose3": "高速公路指引"
+    },
+    {
+        "id": "118",
+        "status": "1",
+        "locate": "image2/13_image2_3_汽車標誌選擇題.png",
+        "choose1": "本標誌為道路施工",
+        "choose2": "車輛改道",
+        "choose3": "道路封閉"
+    },
+    {
+        "id": "119",
+        "status": "1",
+        "locate": "image2/13_image2_4_汽車標誌選擇題.png",
+        "choose1": "本號誌是： 車道管制號誌，表示本車道封閉",
+        "choose2": "前有岔道",
+        "choose3": "行車管制號誌"
+    },
+    {
+        "id": "120",
+        "status": "2",
+        "locate": "image2/13_image2_5_汽車標誌選擇題.png",
+        "choose1": "本標誌是： 里程碑",
+        "choose2": "里程牌",
+        "choose3": "縣道路線編號"
+    },
+    {
+        "id": "121",
+        "status": "1",
+        "locate": "image2/13_image2_6_汽車標誌選擇題.png",
+        "choose1": "圖中最外側的路面邊線與車道線中間的白色實線為何種標線？快慢車道分隔線",
+        "choose2": "行車分向線",
+        "choose3": "雙方禁止超車線"
+    },
+    {
+        "id": "122",
+        "status": "1",
+        "locate": "image2/13_image2_7_汽車標誌選擇題.png",
+        "choose1": "當心自行車",
+        "choose2": "當心行人",
+        "choose3": "當心機車"
+    },
+    {
+        "id": "123",
+        "status": "3",
+        "locate": "image2/13_image2_8_汽車標誌選擇題.png",
+        "choose1": "近鐵路平交道",
+        "choose2": "高  (快) 速公路車輛保持距離",
+        "choose3": "高  (快) 速公路出口距離"
+    },
+    {
+        "id": "124",
+        "status": "1",
+        "locate": "image2/13_image2_9_汽車標誌選擇題.png",
+        "choose1": "高 (快)速公路交流道名稱",
+        "choose2": "地名里程",
+        "choose3": "高（快）速公路出口距離"
+    },
+    {
+        "id": "125",
+        "status": "3",
+        "locate": "image2/13_image2_10_汽車標誌選擇題.png",
+        "choose1": "產業道路",
+        "choose2": "縣道 路線編號標誌",
+        "choose3": "鄉道路線 編號標誌"
+    },
+    {
+        "id": "126",
+        "status": "2",
+        "locate": "image2/14_image2_1_汽車標誌選擇題.png",
+        "choose1": "一般 公路之 省道路線編號標誌",
+        "choose2": "快速公路之省道 路線編號標誌",
+        "choose3": "最高速限標誌"
+    },
+    {
+        "id": "127",
+        "status": "1",
+        "locate": "image2/14_image2_2_汽車標誌選擇題.png",
+        "choose1": "停車處",
+        "choose2": "公園",
+        "choose3": "迴轉道"
+    },
+    {
+        "id": "128",
+        "status": "1",
+        "locate": "image2/14_image2_3_汽車標誌選擇題.png",
+        "choose1": "捷運車站",
+        "choose2": "鐵路車站",
+        "choose3": "高速鐵路車站"
+    },
+    {
+        "id": "129",
+        "status": "1",
+        "locate": "image2/14_image2_4_汽車標誌選擇題.png",
+        "choose1": "港埠",
+        "choose2": "渡口",
+        "choose3": "修理站"
+    },
+    {
+        "id": "130",
+        "status": "2",
+        "locate": "image2/14_image2_5_汽車標誌選擇題.png",
+        "choose1": "捷運車站",
+        "choose2": "鐵路車站",
+        "choose3": "高速鐵路車站"
+    },
+    {
+        "id": "131",
+        "status": "3",
+        "locate": "image2/14_image2_6_汽車標誌選擇題.png",
+        "choose1": "捷運車站",
+        "choose2": "鐵路車站",
+        "choose3": "高速鐵路車站"
+    },
+    {
+        "id": "132",
+        "status": "1",
+        "locate": "image2/14_image2_7_汽車標誌選擇題.png",
+        "choose1": "公路汽車客運車站 或轉運站",
+        "choose2": "捷運車站",
+        "choose3": "計程車招呼站"
+    },
+    {
+        "id": "133",
+        "status": "1",
+        "locate": "image2/14_image2_8_汽車標誌選擇題.png",
+        "choose1": "車道指定自行車專行",
+        "choose2": "車道指定汽車專行",
+        "choose3": "車道指定機車專行"
+    },
+    {
+        "id": "134",
+        "status": "1",
+        "locate": "image2/14_image2_9_汽車標誌選擇題.png",
+        "choose1": "圖中路口交叉型標線是？對角線行人穿越道線",
+        "choose2": "網狀線",
+        "choose3": "自行車穿越道線"
+    },
+    {
+        "id": "135",
+        "status": "1",
+        "locate": "image2/15_image2_1_汽車標誌選擇題.png",
+        "choose1": "駕駛人如果在道路上發現圖中的橫向標線時，應該如何反應？減速慢行",
+        "choose2": "加速通過",
+        "choose3": "檢查輪胎"
+    },
+    {
+        "id": "136",
+        "status": "1",
+        "locate": "image2/15_image2_2_汽車標誌選擇題.png",
+        "choose1": "自行車騎士手勢預告即將 (1)右轉 (2)左轉 (3)減速暫停",
+        "choose2": "",
+        "choose3": ""
+    },
+    {
+        "id": "137",
+        "status": "3",
+        "locate": "image2/15_image2_3_汽車標誌選擇題.png",
+        "choose1": "自行車騎士手勢預告即將 (1)右轉 (2)左轉 (3)減速暫停",
+        "choose2": "",
+        "choose3": ""
+    }
+]

@@ -1,0 +1,1442 @@
+[
+    {
+        "id": "001",
+        "status": "○",
+        "description": "連續彎路先向右",
+        "locate": "image/1_image_1_汽車標誌是非題.png"
+    },
+    {
+        "id": "002",
+        "status": "X",
+        "description": "連續彎路先向左",
+        "locate": "image/1_image_2_汽車標誌是非題.png"
+    },
+    {
+        "id": "003",
+        "status": "○",
+        "description": "岔路",
+        "locate": "image/1_image_3_汽車標誌是非題.png"
+    },
+    {
+        "id": "004",
+        "status": "X",
+        "description": "救護站",
+        "locate": "image/1_image_4_汽車標誌是非題.png"
+    },
+    {
+        "id": "005",
+        "status": "○",
+        "description": "狹路",
+        "locate": "image/1_image_5_汽車標誌是非題.png"
+    },
+    {
+        "id": "006",
+        "status": "X",
+        "description": "狹橋",
+        "locate": "image/1_image_6_汽車標誌是非題.png"
+    },
+    {
+        "id": "007",
+        "status": "○",
+        "description": "險升坡",
+        "locate": "image/1_image_7_汽車標誌是非題.png"
+    },
+    {
+        "id": "008",
+        "status": "X",
+        "description": "險降坡",
+        "locate": "image/1_image_8_汽車標誌是非題.png"
+    },
+    {
+        "id": "009",
+        "status": "○",
+        "description": "狹橋",
+        "locate": "image/1_image_9_汽車標誌是非題.png"
+    },
+    {
+        "id": "010",
+        "status": "X",
+        "description": "狹路",
+        "locate": "image/2_image_1_汽車標誌是非題.png"
+    },
+    {
+        "id": "011",
+        "status": "○",
+        "description": "圓環",
+        "locate": "image/2_image_2_汽車標誌是非題.png"
+    },
+    {
+        "id": "012",
+        "status": "X",
+        "description": "圓環遵行方向",
+        "locate": "image/2_image_3_汽車標誌是非題.png"
+    },
+    {
+        "id": "013",
+        "status": "○",
+        "description": "雙向道",
+        "locate": "image/2_image_4_汽車標誌是非題.png"
+    },
+    {
+        "id": "014",
+        "status": "X",
+        "description": "狹路",
+        "locate": "image/2_image_5_汽車標誌是非題.png"
+    },
+    {
+        "id": "015",
+        "status": "○",
+        "description": "無柵門鐵路平交道",
+        "locate": "image/2_image_6_汽車標誌是非題.png"
+    },
+    {
+        "id": "016",
+        "status": "X",
+        "description": "有柵門鐵路平交道",
+        "locate": "image/2_image_7_汽車標誌是非題.png"
+    },
+    {
+        "id": "017",
+        "status": "○",
+        "description": "當心行人",
+        "locate": "image/2_image_8_汽車標誌是非題.png"
+    },
+    {
+        "id": "018",
+        "status": "X",
+        "description": "當心兒童",
+        "locate": "image/2_image_9_汽車標誌是非題.png"
+    },
+    {
+        "id": "019",
+        "status": "○",
+        "description": "注意強風",
+        "locate": "image/2_image_10_汽車標誌是非題.png"
+    },
+    {
+        "id": "020",
+        "status": "X",
+        "description": "注意標誌",
+        "locate": "image/3_image_1_汽車標誌是非題.png"
+    },
+    {
+        "id": "021",
+        "status": "○",
+        "description": "當心兒童",
+        "locate": "image/3_image_2_汽車標誌是非題.png"
+    },
+    {
+        "id": "022",
+        "status": "X",
+        "description": "當心行人",
+        "locate": "image/3_image_3_汽車標誌是非題.png"
+    },
+    {
+        "id": "023",
+        "status": "○",
+        "description": "左側斷崖",
+        "locate": "image/3_image_4_汽車標誌是非題.png"
+    },
+    {
+        "id": "024",
+        "status": "X",
+        "description": "注意落石",
+        "locate": "image/3_image_5_汽車標誌是非題.png"
+    },
+    {
+        "id": "025",
+        "status": "○",
+        "description": "危險",
+        "locate": "image/3_image_6_汽車標誌是非題.png"
+    },
+    {
+        "id": "026",
+        "status": "X",
+        "description": "注意號誌",
+        "locate": "image/3_image_7_汽車標誌是非題.png"
+    },
+    {
+        "id": "027",
+        "status": "○",
+        "description": "停車再開",
+        "locate": "image/3_image_8_汽車標誌是非題.png"
+    },
+    {
+        "id": "028",
+        "status": "X",
+        "description": "禁止停車",
+        "locate": "image/3_image_9_汽車標誌是非題.png"
+    },
+    {
+        "id": "029",
+        "status": "○",
+        "description": "讓路",
+        "locate": "image/3_image_10_汽車標誌是非題.png"
+    },
+    {
+        "id": "030",
+        "status": "X",
+        "description": "慢行",
+        "locate": "image/4_image_1_汽車標誌是非題.png"
+    },
+    {
+        "id": "031",
+        "status": "○",
+        "description": "禁止停車",
+        "locate": "image/4_image_2_汽車標誌是非題.png"
+    },
+    {
+        "id": "032",
+        "status": "X",
+        "description": "停車再開",
+        "locate": "image/4_image_3_汽車標誌是非題.png"
+    },
+    {
+        "id": "033",
+        "status": "○",
+        "description": "禁止四輪以上汽車進入",
+        "locate": "image/4_image_4_汽車標誌是非題.png"
+    },
+    {
+        "id": "034",
+        "status": "X",
+        "description": "禁止進入",
+        "locate": "image/4_image_5_汽車標誌是非題.png"
+    },
+    {
+        "id": "035",
+        "status": "○",
+        "description": "禁止迴車",
+        "locate": "image/4_image_6_汽車標誌是非題.png"
+    },
+    {
+        "id": "036",
+        "status": "X",
+        "description": "禁止左轉",
+        "locate": "image/4_image_7_汽車標誌是非題.png"
+    },
+    {
+        "id": "037",
+        "status": "○",
+        "description": "禁止四輪以上汽車及機車進入",
+        "locate": "image/4_image_8_汽車標誌是非題.png"
+    },
+    {
+        "id": "038",
+        "status": "X",
+        "description": "禁止四輪以上汽車進入",
+        "locate": "image/4_image_9_汽車標誌是非題.png"
+    },
+    {
+        "id": "039",
+        "status": "○",
+        "description": "車輛高度限制",
+        "locate": "image/5_image_1_汽車標誌是非題.png"
+    },
+    {
+        "id": "040",
+        "status": "X",
+        "description": "車輛寬度限制",
+        "locate": "image/5_image_2_汽車標誌是非題.png"
+    },
+    {
+        "id": "041",
+        "status": "○",
+        "description": "停車檢查",
+        "locate": "image/5_image_3_汽車標誌是非題.png"
+    },
+    {
+        "id": "042",
+        "status": "X",
+        "description": "禁止停車",
+        "locate": "image/5_image_4_汽車標誌是非題.png"
+    },
+    {
+        "id": "043",
+        "status": "○",
+        "description": "最高速限",
+        "locate": "image/5_image_5_汽車標誌是非題.png"
+    },
+    {
+        "id": "044",
+        "status": "X",
+        "description": "最低速限",
+        "locate": "image/5_image_6_汽車標誌是非題.png"
+    },
+    {
+        "id": "045",
+        "status": "○",
+        "description": "停車檢查",
+        "locate": "image/5_image_7_汽車標誌是非題.png"
+    },
+    {
+        "id": "046",
+        "status": "X",
+        "description": "停車再開",
+        "locate": "image/5_image_8_汽車標誌是非題.png"
+    },
+    {
+        "id": "047",
+        "status": "○",
+        "description": "禁止超車",
+        "locate": "image/5_image_9_汽車標誌是非題.png"
+    },
+    {
+        "id": "048",
+        "status": "X",
+        "description": "禁止會車",
+        "locate": "image/5_image_10_汽車標誌是非題.png"
+    },
+    {
+        "id": "049",
+        "status": "○",
+        "description": "最低速限",
+        "locate": "image/6_image_1_汽車標誌是非題.png"
+    },
+    {
+        "id": "050",
+        "status": "X",
+        "description": "最高速限",
+        "locate": "image/6_image_2_汽車標誌是非題.png"
+    },
+    {
+        "id": "051",
+        "status": "○",
+        "description": "當心身心障礙者",
+        "locate": "image/6_image_3_汽車標誌是非題.png"
+    },
+    {
+        "id": "052",
+        "status": "X",
+        "description": "當心兒童",
+        "locate": "image/6_image_4_汽車標誌是非題.png"
+    },
+    {
+        "id": "053",
+        "status": "○",
+        "description": "禁止臨時停車",
+        "locate": "image/6_image_5_汽車標誌是非題.png"
+    },
+    {
+        "id": "054",
+        "status": "X",
+        "description": "禁止停車",
+        "locate": "image/6_image_6_汽車標誌是非題.png"
+    },
+    {
+        "id": "055",
+        "status": "○",
+        "description": "專行車輛（大客車專行）",
+        "locate": "image/6_image_7_汽車標誌是非題.png"
+    },
+    {
+        "id": "056",
+        "status": "X",
+        "description": "車輛長度限制",
+        "locate": "image/6_image_8_汽車標誌是非題.png"
+    },
+    {
+        "id": "057",
+        "status": "○",
+        "description": "車輛寬度限制",
+        "locate": "image/6_image_9_汽車標誌是非題.png"
+    },
+    {
+        "id": "058",
+        "status": "X",
+        "description": "車輛長度限制",
+        "locate": "image/6_image_10_汽車標誌是非題.png"
+    },
+    {
+        "id": "059",
+        "status": "○",
+        "description": "停車檢查",
+        "locate": "image/7_image_1_汽車標誌是非題.png"
+    },
+    {
+        "id": "060",
+        "status": "X",
+        "description": "車輛總重限制",
+        "locate": "image/7_image_2_汽車標誌是非題.png"
+    },
+    {
+        "id": "061",
+        "status": "○",
+        "description": "禁止空計程車進入",
+        "locate": "image/7_image_3_汽車標誌是非題.png"
+    },
+    {
+        "id": "062",
+        "status": "X",
+        "description": "禁止汽車進入",
+        "locate": "image/7_image_4_汽車標誌是非題.png"
+    },
+    {
+        "id": "063",
+        "status": "○",
+        "description": "禁止任何車輛進入",
+        "locate": "image/7_image_5_汽車標誌是非題.png"
+    },
+    {
+        "id": "064",
+        "status": "X",
+        "description": "此路不通",
+        "locate": "image/7_image_6_汽車標誌是非題.png"
+    },
+    {
+        "id": "065",
+        "status": "○",
+        "description": "路面低窪",
+        "locate": "image/7_image_7_汽車標誌是非題.png"
+    },
+    {
+        "id": "066",
+        "status": "X",
+        "description": "路面顛簸",
+        "locate": "image/7_image_8_汽車標誌是非題.png"
+    },
+    {
+        "id": "067",
+        "status": "○",
+        "description": "注意號誌",
+        "locate": "image/7_image_9_汽車標誌是非題.png"
+    },
+    {
+        "id": "068",
+        "status": "X",
+        "description": "行車管制號誌",
+        "locate": "image/7_image_10_汽車標誌是非題.png"
+    },
+    {
+        "id": "069",
+        "status": "○",
+        "description": "路面高突",
+        "locate": "image/8_image_1_汽車標誌是非題.png"
+    },
+    {
+        "id": "070",
+        "status": "X",
+        "description": "路面顛簸",
+        "locate": "image/8_image_2_汽車標誌是非題.png"
+    },
+    {
+        "id": "071",
+        "status": "○",
+        "description": "遵行方向",
+        "locate": "image/8_image_3_汽車標誌是非題.png"
+    },
+    {
+        "id": "072",
+        "status": "X",
+        "description": "單行道",
+        "locate": "image/8_image_4_汽車標誌是非題.png"
+    },
+    {
+        "id": "073",
+        "status": "○",
+        "description": "遵行方向",
+        "locate": "image/8_image_5_汽車標誌是非題.png"
+    },
+    {
+        "id": "074",
+        "status": "X",
+        "description": "分道",
+        "locate": "image/8_image_6_汽車標誌是非題.png"
+    },
+    {
+        "id": "075",
+        "status": "○",
+        "description": "救護站",
+        "locate": "image/8_image_7_汽車標誌是非題.png"
+    },
+    {
+        "id": "076",
+        "status": "X",
+        "description": "醫院",
+        "locate": "image/8_image_8_汽車標誌是非題.png"
+    },
+    {
+        "id": "077",
+        "status": "○",
+        "description": "連續彎路先向左",
+        "locate": "image/8_image_9_汽車標誌是非題.png"
+    },
+    {
+        "id": "078",
+        "status": "X",
+        "description": "連續彎路先向右",
+        "locate": "image/8_image_10_汽車標誌是非題.png"
+    },
+    {
+        "id": "079",
+        "status": "○",
+        "description": "岔路",
+        "locate": "image/9_image_1_汽車標誌是非題.png"
+    },
+    {
+        "id": "080",
+        "status": "X",
+        "description": "此路不通",
+        "locate": "image/9_image_2_汽車標誌是非題.png"
+    },
+    {
+        "id": "081",
+        "status": "○",
+        "description": "遵行方向",
+        "locate": "image/9_image_3_汽車標誌是非題.png"
+    },
+    {
+        "id": "082",
+        "status": "X",
+        "description": "單行道",
+        "locate": "image/9_image_4_汽車標誌是非題.png"
+    },
+    {
+        "id": "083",
+        "status": "○",
+        "description": "右轉方向",
+        "locate": "image/9_image_5_汽車標誌是非題.png"
+    },
+    {
+        "id": "084",
+        "status": "X",
+        "description": "遵行方向",
+        "locate": "image/9_image_6_汽車標誌是非題.png"
+    },
+    {
+        "id": "085",
+        "status": "○",
+        "description": "避車彎",
+        "locate": "image/9_image_7_汽車標誌是非題.png"
+    },
+    {
+        "id": "086",
+        "status": "X",
+        "description": "狹路",
+        "locate": "image/9_image_8_汽車標誌是非題.png"
+    },
+    {
+        "id": "087",
+        "status": "○",
+        "description": "靠右行駛",
+        "locate": "image/9_image_9_汽車標誌是非題.png"
+    },
+    {
+        "id": "088",
+        "status": "X",
+        "description": "靠左行駛",
+        "locate": "image/9_image_10_汽車標誌是非題.png"
+    },
+    {
+        "id": "089",
+        "status": "○",
+        "description": "單行道",
+        "locate": "image/10_image_1_汽車標誌是非題.png"
+    },
+    {
+        "id": "090",
+        "status": "X",
+        "description": "遵行方向",
+        "locate": "image/10_image_2_汽車標誌是非題.png"
+    },
+    {
+        "id": "091",
+        "status": "○",
+        "description": "省道路線編號",
+        "locate": "image/10_image_3_汽車標誌是非題.png"
+    },
+    {
+        "id": "092",
+        "status": "X",
+        "description": "國道路線編號",
+        "locate": "image/10_image_4_汽車標誌是非題.png"
+    },
+    {
+        "id": "093",
+        "status": "○",
+        "description": "縣道路線編號",
+        "locate": "image/10_image_5_汽車標誌是非題.png"
+    },
+    {
+        "id": "094",
+        "status": "X",
+        "description": "省道路線編號",
+        "locate": "image/10_image_6_汽車標誌是非題.png"
+    },
+    {
+        "id": "095",
+        "status": "○",
+        "description": "國道路線編號",
+        "locate": "image/10_image_7_汽車標誌是非題.png"
+    },
+    {
+        "id": "096",
+        "status": "X",
+        "description": "省道路線編號",
+        "locate": "image/10_image_8_汽車標誌是非題.png"
+    },
+    {
+        "id": "097",
+        "status": "○",
+        "description": "分道",
+        "locate": "image/10_image_9_汽車標誌是非題.png"
+    },
+    {
+        "id": "098",
+        "status": "X",
+        "description": "岔路",
+        "locate": "image/10_image_10_汽車標誌是非題.png"
+    },
+    {
+        "id": "099",
+        "status": "○",
+        "description": "禁止會車",
+        "locate": "image/11_image_1_汽車標誌是非題.png"
+    },
+    {
+        "id": "100",
+        "status": "X",
+        "description": "雙向道",
+        "locate": "image/11_image_2_汽車標誌是非題.png"
+    },
+    {
+        "id": "101",
+        "status": "○",
+        "description": "右側車道路寬縮減",
+        "locate": "image/11_image_3_汽車標誌是非題.png"
+    },
+    {
+        "id": "102",
+        "status": "X",
+        "description": "左側車道路寬縮減",
+        "locate": "image/11_image_4_汽車標誌是非題.png"
+    },
+    {
+        "id": "103",
+        "status": "○",
+        "description": "左側車道路寬縮減",
+        "locate": "image/11_image_5_汽車標誌是非題.png"
+    },
+    {
+        "id": "104",
+        "status": "X",
+        "description": "右側車道路寬縮減",
+        "locate": "image/11_image_6_汽車標誌是非題.png"
+    },
+    {
+        "id": "105",
+        "status": "○",
+        "description": "特種閃光「黃燈」號誌",
+        "locate": "image/11_image_7_汽車標誌是非題.png"
+    },
+    {
+        "id": "106",
+        "status": "X",
+        "description": "行車管制號誌",
+        "locate": "image/11_image_8_汽車標誌是非題.png"
+    },
+    {
+        "id": "107",
+        "status": "○",
+        "description": "行人專用號誌",
+        "locate": "image/11_image_9_汽車標誌是非題.png"
+    },
+    {
+        "id": "108",
+        "status": "X",
+        "description": "當心行人",
+        "locate": "image/11_image_10_汽車標誌是非題.png"
+    },
+    {
+        "id": "109",
+        "status": "○",
+        "description": "行人穿越道號誌",
+        "locate": "image/12_image_1_汽車標誌是非題.png"
+    },
+    {
+        "id": "110",
+        "status": "X",
+        "description": "行車管制號誌",
+        "locate": "image/12_image_2_汽車標誌是非題.png"
+    },
+    {
+        "id": "111",
+        "status": "○",
+        "description": "雙線以上電化鐵路平交道",
+        "locate": "image/12_image_3_汽車標誌是非題.png"
+    },
+    {
+        "id": "112",
+        "status": "X",
+        "description": "雙線以上鐵路平交道",
+        "locate": "image/12_image_4_汽車標誌是非題.png"
+    },
+    {
+        "id": "113",
+        "status": "○",
+        "description": "特種閃光「紅燈」號誌",
+        "locate": "image/12_image_5_汽車標誌是非題.png"
+    },
+    {
+        "id": "114",
+        "status": "X",
+        "description": "行車管制號誌",
+        "locate": "image/12_image_6_汽車標誌是非題.png"
+    },
+    {
+        "id": "115",
+        "status": "○",
+        "description": "行車管制號誌",
+        "locate": "image/12_image_7_汽車標誌是非題.png"
+    },
+    {
+        "id": "116",
+        "status": "X",
+        "description": "行人專用號誌",
+        "locate": "image/12_image_8_汽車標誌是非題.png"
+    },
+    {
+        "id": "117",
+        "status": "○",
+        "description": "人行天橋",
+        "locate": "image/12_image_9_汽車標誌是非題.png"
+    },
+    {
+        "id": "118",
+        "status": "X",
+        "description": "人行地下道",
+        "locate": "image/12_image_10_汽車標誌是非題.png"
+    },
+    {
+        "id": "119",
+        "status": "○",
+        "description": "電話",
+        "locate": "image/13_image_1_汽車標誌是非題.png"
+    },
+    {
+        "id": "120",
+        "status": "X",
+        "description": "修理站",
+        "locate": "image/13_image_2_汽車標誌是非題.png"
+    },
+    {
+        "id": "121",
+        "status": "○",
+        "description": "渡口",
+        "locate": "image/13_image_3_汽車標誌是非題.png"
+    },
+    {
+        "id": "122",
+        "status": "X",
+        "description": "專行汽車",
+        "locate": "image/13_image_4_汽車標誌是非題.png"
+    },
+    {
+        "id": "123",
+        "status": "○",
+        "description": "右轉方向",
+        "locate": "image/13_image_5_汽車標誌是非題.png"
+    },
+    {
+        "id": "124",
+        "status": "X",
+        "description": "左轉方向",
+        "locate": "image/13_image_6_汽車標誌是非題.png"
+    },
+    {
+        "id": "125",
+        "status": "○",
+        "description": "左右轉方向",
+        "locate": "image/13_image_7_汽車標誌是非題.png"
+    },
+    {
+        "id": "126",
+        "status": "X",
+        "description": "雙向道",
+        "locate": "image/13_image_8_汽車標誌是非題.png"
+    },
+    {
+        "id": "127",
+        "status": "○",
+        "description": "餐旅服務",
+        "locate": "image/13_image_9_汽車標誌是非題.png"
+    },
+    {
+        "id": "128",
+        "status": "X",
+        "description": "加油站",
+        "locate": "image/13_image_10_汽車標誌是非題.png"
+    },
+    {
+        "id": "129",
+        "status": "○",
+        "description": "人行地下道",
+        "locate": "image/14_image_1_汽車標誌是非題.png"
+    },
+    {
+        "id": "130",
+        "status": "X",
+        "description": "人行天橋",
+        "locate": "image/14_image_2_汽車標誌是非題.png"
+    },
+    {
+        "id": "131",
+        "status": "○",
+        "description": "加油站",
+        "locate": "image/14_image_3_汽車標誌是非題.png"
+    },
+    {
+        "id": "132",
+        "status": "X",
+        "description": "餐旅服務",
+        "locate": "image/14_image_4_汽車標誌是非題.png"
+    },
+    {
+        "id": "133",
+        "status": "○",
+        "description": "左道封閉",
+        "locate": "image/14_image_5_汽車標誌是非題.png"
+    },
+    {
+        "id": "134",
+        "status": "X",
+        "description": "右道封閉",
+        "locate": "image/14_image_6_汽車標誌是非題.png"
+    },
+    {
+        "id": "135",
+        "status": "○",
+        "description": "右道封閉",
+        "locate": "image/14_image_7_汽車標誌是非題.png"
+    },
+    {
+        "id": "136",
+        "status": "X",
+        "description": "左道封閉",
+        "locate": "image/14_image_8_汽車標誌是非題.png"
+    },
+    {
+        "id": "137",
+        "status": "○",
+        "description": "道路施工",
+        "locate": "image/14_image_9_汽車標誌是非題.png"
+    },
+    {
+        "id": "138",
+        "status": "X",
+        "description": "當心行人",
+        "locate": "image/14_image_10_汽車標誌是非題.png"
+    },
+    {
+        "id": "139",
+        "status": "○",
+        "description": "車輛改道",
+        "locate": "image/15_image_1_汽車標誌是非題.png"
+    },
+    {
+        "id": "140",
+        "status": "X",
+        "description": "岔路",
+        "locate": "image/15_image_2_汽車標誌是非題.png"
+    },
+    {
+        "id": "141",
+        "status": "○",
+        "description": "指示改道方向",
+        "locate": "image/15_image_3_汽車標誌是非題.png"
+    },
+    {
+        "id": "142",
+        "status": "X",
+        "description": "單行道",
+        "locate": "image/15_image_4_汽車標誌是非題.png"
+    },
+    {
+        "id": "143",
+        "status": "○",
+        "description": "道路封閉",
+        "locate": "image/15_image_5_汽車標誌是非題.png"
+    },
+    {
+        "id": "144",
+        "status": "X",
+        "description": "道路施工",
+        "locate": "image/15_image_6_汽車標誌是非題.png"
+    },
+    {
+        "id": "145",
+        "status": "○",
+        "description": "圖中黃色雙實線為：雙向禁止超車線",
+        "locate": "image/15_image_7_汽車標誌是非題.png"
+    },
+    {
+        "id": "146",
+        "status": "X",
+        "description": "圖中黃色雙實線為：單向禁止超車線",
+        "locate": "image/15_image_8_汽車標誌是非題.png"
+    },
+    {
+        "id": "147",
+        "status": "○",
+        "description": "圖中黃色單實線配合黃色虛線為：單向禁止超車線",
+        "locate": "image/15_image_9_汽車標誌是非題.png"
+    },
+    {
+        "id": "148",
+        "status": "X",
+        "description": "圖中黃色單實線配合黃色虛線為：雙向禁止超車線",
+        "locate": "image/15_image_10_汽車標誌是非題.png"
+    },
+    {
+        "id": "149",
+        "status": "○",
+        "description": "圖中白色雙實線為：禁止變換車道線",
+        "locate": "image/16_image_1_汽車標誌是非題.png"
+    },
+    {
+        "id": "150",
+        "status": "X",
+        "description": "圖中白色雙實線為：行車分向線",
+        "locate": "image/16_image_2_汽車標誌是非題.png"
+    },
+    {
+        "id": "151",
+        "status": "○",
+        "description": "圖中黃色實線為：禁止停車線",
+        "locate": "image/16_image_3_汽車標誌是非題.png"
+    },
+    {
+        "id": "152",
+        "status": "X",
+        "description": "圖中黃色實線為：禁止臨時停車線",
+        "locate": "image/16_image_4_汽車標誌是非題.png"
+    },
+    {
+        "id": "153",
+        "status": "○",
+        "description": "圖中紅色實線為：禁止臨時停車線",
+        "locate": "image/16_image_5_汽車標誌是非題.png"
+    },
+    {
+        "id": "154",
+        "status": "X",
+        "description": "圖中紅色實線為：禁止停車線",
+        "locate": "image/16_image_6_汽車標誌是非題.png"
+    },
+    {
+        "id": "155",
+        "status": "○",
+        "description": "圖中黃色虛線為：行車分向線",
+        "locate": "image/16_image_7_汽車標誌是非題.png"
+    },
+    {
+        "id": "156",
+        "status": "X",
+        "description": "圖中黃色虛線為：分向限制線",
+        "locate": "image/16_image_8_汽車標誌是非題.png"
+    },
+    {
+        "id": "157",
+        "status": "○",
+        "description": "圖中白色虛線為：車道線",
+        "locate": "image/16_image_9_汽車標誌是非題.png"
+    },
+    {
+        "id": "158",
+        "status": "X",
+        "description": "圖中白色虛線為：行車分向線",
+        "locate": "image/16_image_10_汽車標誌是非題.png"
+    },
+    {
+        "id": "159",
+        "status": "○",
+        "description": "圖中橫向白色實線為：停止線",
+        "locate": "image/17_image_1_汽車標誌是非題.png"
+    },
+    {
+        "id": "160",
+        "status": "X",
+        "description": "圖中橫向白色實線為：讓路線",
+        "locate": "image/17_image_2_汽車標誌是非題.png"
+    },
+    {
+        "id": "161",
+        "status": "○",
+        "description": "圖中白色斜紋線為：斑馬紋行人穿越道",
+        "locate": "image/17_image_3_汽車標誌是非題.png"
+    },
+    {
+        "id": "162",
+        "status": "X",
+        "description": "圖中白色斜紋線為：枕木紋行人穿越道",
+        "locate": "image/17_image_4_汽車標誌是非題.png"
+    },
+    {
+        "id": "163",
+        "status": "○",
+        "description": "指向線",
+        "locate": "image/17_image_5_汽車標誌是非題.png"
+    },
+    {
+        "id": "164",
+        "status": "X",
+        "description": "行車分向線",
+        "locate": "image/17_image_6_汽車標誌是非題.png"
+    },
+    {
+        "id": "165",
+        "status": "○",
+        "description": "圖中白色紋線為：枕木紋行人穿越道線",
+        "locate": "image/17_image_7_汽車標誌是非題.png"
+    },
+    {
+        "id": "166",
+        "status": "X",
+        "description": "圖中白色紋線為：斑馬紋行人穿越道線",
+        "locate": "image/17_image_8_汽車標誌是非題.png"
+    },
+    {
+        "id": "167",
+        "status": "○",
+        "description": "圖中黃色雙實線為：分向限制線",
+        "locate": "image/17_image_9_汽車標誌是非題.png"
+    },
+    {
+        "id": "168",
+        "status": "X",
+        "description": "圖中黃色雙實線為：行車分向線",
+        "locate": "image/17_image_10_汽車標誌是非題.png"
+    },
+    {
+        "id": "169",
+        "status": "○",
+        "description": "路寬變更線",
+        "locate": "image/18_image_1_汽車標誌是非題.png"
+    },
+    {
+        "id": "170",
+        "status": "X",
+        "description": "狹路變更線",
+        "locate": "image/18_image_2_汽車標誌是非題.png"
+    },
+    {
+        "id": "171",
+        "status": "○",
+        "description": "近障礙物線",
+        "locate": "image/18_image_3_汽車標誌是非題.png"
+    },
+    {
+        "id": "172",
+        "status": "X",
+        "description": "圖中黃色標線為單向禁止超車線。",
+        "locate": "image/18_image_4_汽車標誌是非題.png"
+    },
+    {
+        "id": "173",
+        "status": "○",
+        "description": "近鐵路平交道線",
+        "locate": "image/18_image_5_汽車標誌是非題.png"
+    },
+    {
+        "id": "174",
+        "status": "X",
+        "description": "讓路線",
+        "locate": "image/18_image_6_汽車標誌是非題.png"
+    },
+    {
+        "id": "175",
+        "status": "○",
+        "description": "圖中白色倒三角型標線為：讓路線",
+        "locate": "image/18_image_7_汽車標誌是非題.png"
+    },
+    {
+        "id": "176",
+        "status": "X",
+        "description": "圖中白色倒三角型標線為：指向線",
+        "locate": "image/18_image_8_汽車標誌是非題.png"
+    },
+    {
+        "id": "177",
+        "status": "○",
+        "description": "圖中網狀線，用以告示車輛駕駛人在本標線範圍內禁止臨時停車",
+        "locate": "image/18_image_9_汽車標誌是非題.png"
+    },
+    {
+        "id": "178",
+        "status": "X",
+        "description": "圖中網狀線，用以告示車輛駕駛人在本標線範圍內可以臨時停車",
+        "locate": "image/18_image_10_汽車標誌是非題.png"
+    },
+    {
+        "id": "179",
+        "status": "○",
+        "description": "車輛停放線",
+        "locate": "image/19_image_1_汽車標誌是非題.png"
+    },
+    {
+        "id": "180",
+        "status": "X",
+        "description": "停止線",
+        "locate": "image/19_image_2_汽車標誌是非題.png"
+    },
+    {
+        "id": "181",
+        "status": "○",
+        "description": "圖中白色虛線為：轉彎線",
+        "locate": "image/19_image_3_汽車標誌是非題.png"
+    },
+    {
+        "id": "182",
+        "status": "X",
+        "description": "圖中白色虛線為：槽化線",
+        "locate": "image/19_image_4_汽車標誌是非題.png"
+    },
+    {
+        "id": "183",
+        "status": "○",
+        "description": "全部車輛停止",
+        "locate": "image/19_image_5_汽車標誌是非題.png"
+    },
+    {
+        "id": "184",
+        "status": "X",
+        "description": "前面來車停止",
+        "locate": "image/19_image_6_汽車標誌是非題.png"
+    },
+    {
+        "id": "185",
+        "status": "○",
+        "description": "右面來車左轉彎",
+        "locate": "image/19_image_7_汽車標誌是非題.png"
+    },
+    {
+        "id": "186",
+        "status": "X",
+        "description": "左面來車右轉彎",
+        "locate": "image/19_image_8_汽車標誌是非題.png"
+    },
+    {
+        "id": "187",
+        "status": "○",
+        "description": "右面來車停止",
+        "locate": "image/19_image_9_汽車標誌是非題.png"
+    },
+    {
+        "id": "188",
+        "status": "X",
+        "description": "左面來車停止",
+        "locate": "image/19_image_10_汽車標誌是非題.png"
+    },
+    {
+        "id": "189",
+        "status": "○",
+        "description": "左面來車左轉彎",
+        "locate": "image/20_image_1_汽車標誌是非題.png"
+    },
+    {
+        "id": "190",
+        "status": "X",
+        "description": "右面來車左轉彎",
+        "locate": "image/20_image_2_汽車標誌是非題.png"
+    },
+    {
+        "id": "191",
+        "status": "○",
+        "description": "左面來車停止",
+        "locate": "image/20_image_3_汽車標誌是非題.png"
+    },
+    {
+        "id": "192",
+        "status": "X",
+        "description": "右面來車停止",
+        "locate": "image/20_image_4_汽車標誌是非題.png"
+    },
+    {
+        "id": "193",
+        "status": "○",
+        "description": "前後來車停止，左右來車通行",
+        "locate": "image/20_image_5_汽車標誌是非題.png"
+    },
+    {
+        "id": "194",
+        "status": "X",
+        "description": "全部車輛停止",
+        "locate": "image/20_image_6_汽車標誌是非題.png"
+    },
+    {
+        "id": "195",
+        "status": "○",
+        "description": "右面來車速行",
+        "locate": "image/20_image_7_汽車標誌是非題.png"
+    },
+    {
+        "id": "196",
+        "status": "X",
+        "description": "左面來車速行",
+        "locate": "image/20_image_8_汽車標誌是非題.png"
+    },
+    {
+        "id": "197",
+        "status": "○",
+        "description": "前面來車停止",
+        "locate": "image/20_image_9_汽車標誌是非題.png"
+    },
+    {
+        "id": "198",
+        "status": "X",
+        "description": "全部車輛停止",
+        "locate": "image/20_image_10_汽車標誌是非題.png"
+    },
+    {
+        "id": "199",
+        "status": "○",
+        "description": "左面來車速行",
+        "locate": "image/21_image_1_汽車標誌是非題.png"
+    },
+    {
+        "id": "200",
+        "status": "X",
+        "description": "右面來車速行",
+        "locate": "image/21_image_2_汽車標誌是非題.png"
+    },
+    {
+        "id": "201",
+        "status": "○",
+        "description": "本標誌為：在高速公路行駛此路段之車輛，速度限制每小時最高不得超過１１０公里。",
+        "locate": "image/21_image_3_汽車標誌是非題.png"
+    },
+    {
+        "id": "202",
+        "status": "X",
+        "description": "警告左線車道終止於前面不遠處，行駛於左線車道之車輛，必須插入右鄰車道。",
+        "locate": "image/21_image_4_汽車標誌是非題.png"
+    },
+    {
+        "id": "203",
+        "status": "○",
+        "description": "指示高（快）速公路出口處，及出口匝道的方向。",
+        "locate": "image/21_image_5_汽車標誌是非題.png"
+    },
+    {
+        "id": "204",
+        "status": "○",
+        "description": "此標誌促使駕駛人注意，遇有障礙物或交通島時，車輛應該分駛其兩側。",
+        "locate": "image/21_image_6_汽車標誌是非題.png"
+    },
+    {
+        "id": "205",
+        "status": "○",
+        "description": "指示通往前方兩處出口的地點，分別為楊梅和新竹，且距該兩處出口之里程分別為５公里與３０公里。",
+        "locate": "image/21_image_7_汽車標誌是非題.png"
+    },
+    {
+        "id": "206",
+        "status": "○",
+        "description": "指示前方有服務區及其距離里程。",
+        "locate": "image/21_image_8_汽車標誌是非題.png"
+    },
+    {
+        "id": "207",
+        "status": "○",
+        "description": "指示前面１５０公尺處之最右側車道為慢速車爬坡之專用車道。",
+        "locate": "image/21_image_9_汽車標誌是非題.png"
+    },
+    {
+        "id": "208",
+        "status": "○",
+        "description": "指示要上高速公路（往南方向）或要去斗南的車輛，須依箭頭方向駛入交流道進口匝道。",
+        "locate": "image/21_image_10_汽車標誌是非題.png"
+    },
+    {
+        "id": "209",
+        "status": "○",
+        "description": "本號誌是車道管制號誌。",
+        "locate": "image/22_image_1_汽車標誌是非題.png"
+    },
+    {
+        "id": "210",
+        "status": "○",
+        "description": "當心動物 。",
+        "locate": "image/22_image_2_汽車標誌是非題.png"
+    },
+    {
+        "id": "211",
+        "status": "○",
+        "description": "本標誌是指向北行。",
+        "locate": "image/22_image_3_汽車標誌是非題.png"
+    },
+    {
+        "id": "212",
+        "status": "X",
+        "description": "這是警告標誌，表示前面路段封閉。",
+        "locate": "image/22_image_4_汽車標誌是非題.png"
+    },
+    {
+        "id": "213",
+        "status": "○",
+        "description": "這是「交通錐」 ，用以輔助拒馬阻擋或分隔交通。",
+        "locate": "image/22_image_5_汽車標誌是非題.png"
+    },
+    {
+        "id": "214",
+        "status": "X",
+        "description": "本標誌用以指示駕駛人，從中壢往高速公路有二處出口。",
+        "locate": "image/22_image_6_汽車標誌是非題.png"
+    },
+    {
+        "id": "215",
+        "status": "X",
+        "description": "本標誌用以指示通達地點應行駛之車道。",
+        "locate": "image/22_image_7_汽車標誌是非題.png"
+    },
+    {
+        "id": "216",
+        "status": "○",
+        "description": "左圖標誌表示該標誌與前方交流道出口距離為2,000公尺",
+        "locate": "image/22_image_8_汽車標誌是非題.png"
+    },
+    {
+        "id": "217",
+        "status": "○",
+        "description": "煞車系統警示燈",
+        "locate": "image/22_image_9_汽車標誌是非題.png"
+    },
+    {
+        "id": "218",
+        "status": "X",
+        "description": "ABS煞車警示燈",
+        "locate": "image/23_image_1_汽車標誌是非題.png"
+    },
+    {
+        "id": "219",
+        "status": "○",
+        "description": "充電警示燈",
+        "locate": "image/23_image_2_汽車標誌是非題.png"
+    },
+    {
+        "id": "220",
+        "status": "X",
+        "description": "引擎故障警示燈",
+        "locate": "image/23_image_3_汽車標誌是非題.png"
+    },
+    {
+        "id": "221",
+        "status": "○",
+        "description": "低機油壓力警示燈",
+        "locate": "image/23_image_4_汽車標誌是非題.png"
+    },
+    {
+        "id": "222",
+        "status": "X",
+        "description": "低燃油油位警示燈",
+        "locate": "image/23_image_5_汽車標誌是非題.png"
+    },
+    {
+        "id": "223",
+        "status": "○",
+        "description": "引擎故障警示燈",
+        "locate": "image/23_image_6_汽車標誌是非題.png"
+    },
+    {
+        "id": "224",
+        "status": "X",
+        "description": "充電警示燈",
+        "locate": "image/23_image_7_汽車標誌是非題.png"
+    },
+    {
+        "id": "225",
+        "status": "○",
+        "description": "低燃油油位警示燈",
+        "locate": "image/23_image_8_汽車標誌是非題.png"
+    },
+    {
+        "id": "226",
+        "status": "X",
+        "description": "低機油壓力警示燈",
+        "locate": "image/23_image_9_汽車標誌是非題.png"
+    },
+    {
+        "id": "227",
+        "status": "○",
+        "description": "車門開啟警示燈",
+        "locate": "image/23_image_10_汽車標誌是非題.png"
+    },
+    {
+        "id": "228",
+        "status": "X",
+        "description": "轉向指示燈",
+        "locate": "image/24_image_1_汽車標誌是非題.png"
+    },
+    {
+        "id": "229",
+        "status": "○",
+        "description": "轉向指示燈",
+        "locate": "image/24_image_2_汽車標誌是非題.png"
+    },
+    {
+        "id": "230",
+        "status": "X",
+        "description": "車寬指示燈",
+        "locate": "image/24_image_3_汽車標誌是非題.png"
+    },
+    {
+        "id": "231",
+        "status": "○",
+        "description": "遠光指示燈",
+        "locate": "image/24_image_4_汽車標誌是非題.png"
+    },
+    {
+        "id": "232",
+        "status": "X",
+        "description": "霧燈指示燈",
+        "locate": "image/24_image_5_汽車標誌是非題.png"
+    },
+    {
+        "id": "233",
+        "status": "○",
+        "description": "安全帶警示燈",
+        "locate": "image/24_image_6_汽車標誌是非題.png"
+    },
+    {
+        "id": "234",
+        "status": "X",
+        "description": "氣囊警示燈",
+        "locate": "image/24_image_7_汽車標誌是非題.png"
+    },
+    {
+        "id": "235",
+        "status": "○",
+        "description": "危險警告燈按鈕",
+        "locate": "image/24_image_8_汽車標誌是非題.png"
+    },
+    {
+        "id": "236",
+        "status": "X",
+        "description": "三角警示架",
+        "locate": "image/24_image_9_汽車標誌是非題.png"
+    },
+    {
+        "id": "237",
+        "status": "○",
+        "description": "自行車騎士手勢預告即將左轉",
+        "locate": "image/24_image_10_汽車標誌是非題.png"
+    },
+    {
+        "id": "238",
+        "status": "○",
+        "description": "自行車騎士手勢預告即將右轉",
+        "locate": "image/25_image_1_汽車標誌是非題.png"
+    },
+    {
+        "id": "239",
+        "status": "○",
+        "description": "通學區起點標線",
+        "locate": "image/25_image_2_汽車標誌是非題.png"
+    },
+    {
+        "id": "240",
+        "status": "○",
+        "description": "行人優先區起點標誌",
+        "locate": "image/25_image_3_汽車標誌是非題.png"
+    }
+]
